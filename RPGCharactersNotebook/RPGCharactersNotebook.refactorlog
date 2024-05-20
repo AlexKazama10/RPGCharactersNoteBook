@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="81e2baf0-1a70-4762-ae5d-03b932f87285" ChangeDateTime="05/18/2024 15:56:19">
+    <Property Name="ElementName" Value="[dbo].[tbl_CHARACTERS].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_CHARACTERS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0a621ea9-9f27-46fa-b09b-4d39b8af0819" ChangeDateTime="05/20/2024 10:29:12">
+    <Property Name="ElementName" Value="[dbo].[tbl_RACES].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_RACES]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e6e5eddf-5c4f-429d-8310-c5dd4527ab14" ChangeDateTime="05/20/2024 10:30:19">
+    <Property Name="ElementName" Value="[dbo].[tbl_RACE_FEATURES].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_RACE_FEATURES]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6fd3b640-1f92-4891-b640-17cb6bffc6ea" ChangeDateTime="05/20/2024 10:31:42">
+    <Property Name="ElementName" Value="[dbo].[tbl_RACE_ALIGNMENTS].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_RACE_ALIGNMENTS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fe7b3157-6bbd-4a06-a391-c353d382156f" ChangeDateTime="05/20/2024 10:32:35">
+    <Property Name="ElementName" Value="[dbo].[tbl_CLASSES].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_CLASSES]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e825d0ed-a614-444d-80f6-b895f295d857" ChangeDateTime="05/20/2024 10:33:07">
+    <Property Name="ElementName" Value="[dbo].[tbl_CLASS_FEATURES].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_CLASS_FEATURES]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6d9af0b0-3e68-41ba-90b5-c2199c537106" ChangeDateTime="05/20/2024 10:34:18">
+    <Property Name="ElementName" Value="[dbo].[tbl_ALIGNMENTS].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_ALIGNMENTS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2c293069-8874-4443-a8e7-440a9e185f96" ChangeDateTime="05/20/2024 10:35:32">
+    <Property Name="ElementName" Value="[dbo].[tbl_CHARACTERS].[CHARACTER_STATS_STRENGTH]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_CHARACTERS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CHARACTER_STATS_VITALITY" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e136d0ee-0688-4451-97dc-5c08d73ae88e" ChangeDateTime="05/20/2024 10:35:36">
+    <Property Name="ElementName" Value="[dbo].[tbl_CHARACTERS].[CHARACTER_STATS_VITALITY]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_CHARACTERS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CHARACTER_STATS_LEVEL" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="104175b1-8890-474f-8c08-1148efe6c529" ChangeDateTime="05/20/2024 10:35:40">
+    <Property Name="ElementName" Value="[dbo].[tbl_CHARACTERS].[CHARACTER_STATS_]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_CHARACTERS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CHARACTER_STATS_VITALITY" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f3426e2d-c180-4228-b79d-72f2baf5e3a2" ChangeDateTime="05/20/2024 10:38:49">
+    <Property Name="ElementName" Value="[dbo].[tbl_ITEMS].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_ITEMS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="00a11bbb-adac-443a-9e72-e6e3b1ada9cf" ChangeDateTime="05/20/2024 10:39:22">
+    <Property Name="ElementName" Value="[dbo].[tbl_ITEM_RARITIES].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_ITEM_RARITIES]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ea821955-8215-4fed-8c0c-c7a740890eea" ChangeDateTime="05/20/2024 10:39:56">
+    <Property Name="ElementName" Value="[dbo].[tbl_SPELLS].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_SPELLS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="330e0021-bd5e-4c39-b301-6f08fd7267b0" ChangeDateTime="05/20/2024 10:40:41">
+    <Property Name="ElementName" Value="[dbo].[tbl_STATS].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_STATS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+</Operations>

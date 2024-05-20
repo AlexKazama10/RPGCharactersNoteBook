@@ -59,5 +59,19 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="tbl_CHARACTERS.sql" />
+    <Build Include="tbl_RACES.sql" />
+    <Build Include="tbl_RACE_FEATURES.sql" />
+    <Build Include="tbl_RACE_ALIGNMENTS.sql" />
+    <Build Include="tbl_CLASSES.sql" />
+    <Build Include="tbl_CLASS_FEATURES.sql" />
+    <Build Include="tbl_ALIGNMENTS.sql" />
+    <Build Include="tbl_ITEMS.sql" />
+    <Build Include="tbl_ITEM_RARITIES.sql" />
+    <Build Include="tbl_SPELLS.sql" />
+    <Build Include="tbl_STATS.sql" />
+    <Build Include="PK_CHARACTERS_RACES.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="RPGCharactersNotebook.refactorlog" />
   </ItemGroup>
 </Project>
